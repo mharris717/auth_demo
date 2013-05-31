@@ -1,4 +1,15 @@
 EmberAuthRailsDemo::Application.routes.draw do
+  namespace :api do
+    resources :posts, only: [:index, :show]
+    resources :users, only: [:index, :show]
+  end
+
+  devise_for :users, controllers: {sessions: 'sessions'}
+
+  root to: 'home#index'
+
+  get '*ember' => 'home#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

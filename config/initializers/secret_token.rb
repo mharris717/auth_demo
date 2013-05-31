@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-EmberAuthRailsDemo::Application.config.secret_token = '27115f0b85bd2221bac63b20135813c919150d00d514af26d31737b504ee8ef03cb88afb93038a015be6b96f9d985f885c8344b27121c589d53cb565f5e94a88'
+EmberAuthRailsDemo::Application.config.secret_token = '77eb25423ebd50be1821438a8792aa68ed446bb7a40a4c7cf205fe1550e8ca5e5de90a77aedfe37b1bc429a23ff4ddc1c4c087fe46d8c3903dbb6da90ff773c2'
